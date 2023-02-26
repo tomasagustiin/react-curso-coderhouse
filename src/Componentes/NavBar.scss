@@ -1,0 +1,36 @@
+.navbar{
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40rem;
+
+}
+.menu{    
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.items{
+    margin-right: 16px;
+    text-decoration: none;
+    margin-right: 2rem;
+}  
+.items__pags{
+    text-decoration: none;
+}
+.carrito{
+    display: flex;
+    align-items: center;
+}
